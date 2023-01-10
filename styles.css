@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(1, 1, 1);
+    background-color: rgb(26, 26, 26);
 }
 nav{
     margin: 3% 5%;
@@ -50,12 +50,12 @@ nav{
     margin-left: 20%;
 }
 .container-end button{
-    background-color: rgb(1, 1, 1);
+    background-color: rgb(26, 26, 26);
     border: none;
     cursor: pointer;
 }
 .profile button img{
-    border: 1px solid;
+    border: 1px solid rgb(26, 26, 26);
     border-radius: 50%;
 }
 .fig-container {
@@ -216,21 +216,24 @@ figcaption {
     gap: 8%;
 }
 .feedback{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(26, 26, 26);
     color: #e8eaed;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 6px;
+    left: 45px;
+    cursor: pointer;
 }
 .claim{
     display: flex;
-    gap: 8%;
+    gap: 10%;
     align-items: center;
     border: 0.8px solid #e8eaed;
     border-radius: 25px;
     width: 130%;
     height: 140%;
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     color: #e8eaed;
 }
 .claim span img {
@@ -247,6 +250,7 @@ figcaption {
 }
 .profiles figcaption {
     font-size: 14px;
+    color: #e8eaed;
 }
 .profiles img {
     margin-left: 10px;
@@ -257,7 +261,7 @@ figcaption {
     border: none;
     position: relative;
     top: 10px;
-    width: 26%;
+    width: 60%;
 }
 .one{
     position: relative;
@@ -273,7 +277,7 @@ figcaption {
 .stats button{
     border: 0.8px solid rgb(47, 47, 47);
     border-radius: 25px;
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -292,4 +296,93 @@ table tr th {
 table {
      border: 1px solid #e8eaed;
      border-collapse: collapse;
+}
+#line {
+    margin-top: 15px;
+    font-size: 18px;
+}
+.fig {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+.fig figcaption a{
+    color: #e8eaed;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: arial,sans-serif;
+}
+.fig img {
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 15px;
+}
+.left {
+    font-size: 16px;
+    font-family: garial,sans-serif;
+    font-weight: lighter;
+    line-height: 1.58;
+}
+.see-more button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 3px;
+    font-size: 14px;
+    border: 0.8px solid #303134;
+    border-radius: 25px;
+    width: 50%;
+    background-color: #303134;
+    color: #e8eaed;
+    margin-top: 10px;
+}
+.see-more :hover{
+    background-color: rgb(89, 88, 88) ;
+}
+.images {
+    display: flex;
+    gap: 1.2px;
+}
+.first{
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px 0px 0px 10px;
+}
+.last {
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 0px 10px 10px 0px;
+}
+.right button {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(26, 26, 26);
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    margin-left: 35%;
+    position: relative;
+    bottom: 35px;
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 8px 0px 0px 8px;
+}
+.right button a {
+    color:#e8eaed;
+    text-decoration: none;
+}
+.right button a:hover {
+    text-decoration: underline;
+}
+.main-container{
+    display: flex;
+    gap: 8%;
+}
+.right{
+    margin-left: 10%;
+}
+.more-images button{
+    margin-left: 80.6%;
+    position: relative;
+    margin-bottom: 5px;
+
+   
 }
