@@ -375,6 +375,8 @@ table {
 .main-container{
     display: flex;
     gap: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .right{
     margin-left: 10%;
@@ -385,4 +387,99 @@ table {
     margin-bottom: 5px;
 
    
+}
+.mirror {
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+.mirror span p {
+    color: #e8eaed;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+}
+.t-stories {
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 22px;
+}
+.f-line{
+    margin-top: 1px;
+    width: 200%;
+}
+.m-content{
+    display: flex;
+    gap: 3%;
+    margin-top: 3%;
+
+}
+.m-content a{
+    color: #8ab4f8;
+    font-family: arial,sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.m-content a:hover {
+    text-decoration: underline;
+}
+.m-content img {
+    border: 1px solid #303134;
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.time {
+    position: relative;
+    bottom: 25px;
+    color: #bdc1c6;
+    font-family:arial,sans-serif;
+    font-size: 12px;
+}
+.mirror-line {
+    width: 90%;
+    margin-top: 15px;
+}
+.daily-mail{
+    display: flex;
+    gap:5px;
+    position: relative;
+    bottom: 1%;
+}
+.daily-mail span p{
+    color: #e8eaed;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+}
+.dailymail-content{
+    display: flex;
+    gap: 38px;
+}
+.dailymail-content a {
+    color: #8ab4f8;
+    font-family: arial,sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.dailymail-content a:hover{
+    text-decoration: underline;
+}
+.dailymail-content img {
+    border: 1px solid #303134;
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.info{display: flex;
+      gap: 3%;
+}
+.dm{
+    margin-top: 2%;
+}
+.part-2{
+    border-left: 1px solid #303134;
+    padding-left: 15px;
+}
+.left {
+    border-left: 1px solid #303134;
+    padding-left: 25px;
 }
