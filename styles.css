@@ -163,7 +163,7 @@ figcaption {
     margin-top: 2%;
 }
 .messi img{
-    border:1px solid black;
+    border:1px solid rgb(26, 26, 26);
     border-radius: 10px;
     width: 45px;
 }
@@ -293,10 +293,6 @@ table tr th {
     font-size: 14px;
     font-weight: lighter;
 }
-table {
-     border: 1px solid #e8eaed;
-     border-collapse: collapse;
-}
 #line {
     margin-top: 15px;
     font-size: 18px;
@@ -385,7 +381,6 @@ table {
     margin-left: 80.6%;
     position: relative;
     margin-bottom: 5px;
-
    
 }
 .mirror {
@@ -473,7 +468,19 @@ table {
       gap: 3%;
 }
 .dm{
-    margin-top: 2%;
+    margin-top: 3%;
+}
+.m-t {
+    margin-top: 15px;
+}
+.d-m{
+    margin-top: 25px;
+}
+.l-dm{position: relative;
+    bottom: 25px;    
+}
+.dp{
+    margin-top: 10%;
 }
 .part-2{
     border-left: 1px solid #303134;
@@ -482,4 +489,60 @@ table {
 .left {
     border-left: 1px solid #303134;
     padding-left: 25px;
+}
+.more-news button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 3px;
+    font-size: 14px;
+    border: 0.8px solid #303134;
+    border-radius: 25px;
+    width: 50%;
+    background-color: #303134;
+    color: #e8eaed;
+    margin-top: 15px;
+    position: relative;
+    right: 60px;
+    top: 1%;
+}
+.more-news :hover{
+    background-color: rgb(89, 88, 88) ;
+
+}
+.hr-right{
+    margin-top: 4.6%;
+}
+.faq h3 {
+    color: #e8eaed;
+    font-size: 22px;
+}
+.faq hr {
+    margin-top: 5%;
+}
+.faq p {
+    color: #bdc1c6;
+}
+summary{
+    color: #bdc1c6;
+}
+.id {
+    display: flex;
+     gap: 64%;
+}
+.contact {
+display: flex;
+gap: 70%;
+}
+.worth {
+    display: flex;
+    gap: 62.5%;
+}
+.speed {
+    display: flex;
+    gap: 60%;
+}
+details summary {
+    list-style: none;
 }
