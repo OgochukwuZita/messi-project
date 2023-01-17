@@ -546,3 +546,29 @@ gap: 70%;
 details summary {
     list-style: none;
 }
+details a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+details a:hover{
+    text-decoration: underline;
+}
+details p {
+    font-size: 16px;
+    font-family:arial,sans-serif;
+    line-height:30px;
+}
+.date {
+    font-size: 12px;
+}
+#feedback {
+    float: right;
+    position: relative;
+    bottom: 3%;
+    right: 3%;
+    color: #bdc1c6;
+}
+.feedback-hr{
+    width: 85%;
+    margin-top: 6%;
+}
