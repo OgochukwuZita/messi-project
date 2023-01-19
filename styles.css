@@ -567,8 +567,35 @@ details p {
     bottom: 3%;
     right: 3%;
     color: #bdc1c6;
+    font-size: 14px;
 }
 .feedback-hr{
     width: 85%;
     margin-top: 6%;
+}
+.flex-content {
+    display: flex;
+    gap: 8%;
+    line-height: 30px;
+    font-family: arial,sans-serif;
+}
+.small-container a{
+    text-decoration: none;
+    color: #8ab4f8;
+}
+.small-container p {
+    color: #bdc1c6;
+}
+.small-container a:hover{
+    text-decoration: underline;
+}
+.flex-content img {
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 10px;
+}
+.forbes {
+    margin-top: 3%;
+}
+.transfers {
+    margin-top: 3%;
 }
