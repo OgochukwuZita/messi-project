@@ -599,3 +599,45 @@ details p {
 .transfers {
     margin-top: 3%;
 }
+.videos {
+    display: flex;
+    gap: 2%;
+    margin-top: 5%;
+    font-size: 22px;
+}
+.videos a {
+    text-decoration: none;
+    color: #bdc1c6;
+    font-family: arial,sans-serif;
+}
+.videos a:hover{
+    color: #8ab4f8;
+}
+.hr-video{
+    margin-top: 6%;
+
+}
+.videos-container {
+    display: flex;
+    gap: 5%;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.videos-container img {
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+    width: 150px;
+}
+.videos-container p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #bdc1c6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.videos-container a{
+    text-decoration: none;
+    color: #8ab4f8;
+}
+.videos-container a:hover{
+    text-decoration: underline;
+}
