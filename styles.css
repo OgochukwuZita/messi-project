@@ -641,3 +641,38 @@ details p {
 .videos-container a:hover{
     text-decoration: underline;
 }
+.news-container{
+    display: flex;
+    gap: 8%;
+    margin-top: 5%;
+    font-family: arial,sans-serif;
+}
+.news-container a{
+    text-decoration: none;
+    color: #969ba1;
+    font-size: 16px;
+}
+.content {
+    display: flex;
+    gap: 12%;
+    color: #969ba1;
+    font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-top: 2%;
+}
+.player-profile {
+    display: flex;
+    gap: 3%;
+}
+.content a {
+    text-decoration: none;
+    color: #8ab4f8;
+    font-size: 20px;
+}
+.content a:hover {
+    text-decoration: underline;
+}
+.content img {
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
